@@ -1,4 +1,4 @@
-package testing;
+package com.gridnine.testing;
 
 import com.gridnine.testing.exception.ArrivalTimeIsNotCorrectException;
 import com.gridnine.testing.exception.FlightTimeIsNotCorrectException;
@@ -36,7 +36,7 @@ public class FlightBuilder {
                         threeDaysFromNow.plusHours(6), threeDaysFromNow.plusHours(7)));
     }
 
-    private static Flight createFlight(final LocalDateTime... dates) {
+    static Flight createFlight(final LocalDateTime... dates) {
         if ((dates.length % 2) != 0) {
             throw new IllegalArgumentException(
                     "you must pass an even number of dates");
