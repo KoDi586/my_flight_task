@@ -1,4 +1,4 @@
-package testing;
+package com.gridnine.testing;
 
 import com.gridnine.testing.exception.ArrivalTimeIsNotCorrectException;
 import com.gridnine.testing.exception.FlightTimeIsNotCorrectException;

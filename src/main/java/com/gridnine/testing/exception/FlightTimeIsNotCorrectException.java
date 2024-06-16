@@ -1,4 +1,4 @@
-package testing.exception;
+package com.gridnine.testing.exception;
 
 public class FlightTimeIsNotCorrectException extends RuntimeException {
 
